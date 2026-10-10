@@ -8,11 +8,11 @@ I run and troubleshoot client networks on MikroTik and Cisco during the day, and
 
 **[Project JASIM](https://github.com/Montadher-M/Project-JASIM)**: Python network monitor with two-tier ping scheduling, state-change alerting, escalation, and alert-storm suppression, delivered to Slack. Built to reduce manual device checks in a NOC.
 
-**[Homelab](https://github.com/Montadher-M/homelab)**: Self-hosted infrastructure on Proxmox: VLAN-segmented MikroTik network, zero-inbound-port service exposure through Cloudflare Tunnel, SSO via Authentik, and an EVE-NG lab for testing configs before they touch production.
+**Homelab**: Self-hosted infrastructure on Proxmox: VLAN-segmented MikroTik network, zero-inbound-port service exposure through Cloudflare Tunnel, SSO via Authentik, and an EVE-NG lab for testing configs before they touch production.
 
 ## Write-ups
 
-- [Diagnosing a PMTUD black hole on a PPPoE uplink]: upload dropping to kbps, traced to hidden encapsulation past the BRAS, fixed with MTU and MSS clamping.
+- Diagnosing a PMTUD black hole on a PPPoE uplink: upload dropping to kbps, traced to hidden encapsulation past the BRAS, fixed with MTU and MSS clamping.
 
 ## Stack
 
